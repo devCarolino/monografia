@@ -25,7 +25,7 @@ class _TelaLoginState extends State<TelaLogin> {
 
    bool _subindoImagem = false;
    String _mensagemErro = "";
-  // String? _idUsuarioLogado;
+   String? _idUsuarioLogado;
 
   _validarCampos(){
     String email = _email.text;
