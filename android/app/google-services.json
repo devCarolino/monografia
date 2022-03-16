@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "884922028127",
+    "project_id": "monografia-f9e0a",
+    "storage_bucket": "monografia-f9e0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884922028127:android:c4e4efdc65c315bb768bea",
+        "android_client_info": {
+          "package_name": "com.carolino.monografia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884922028127-682pkff94m6s0krse9ccc5oceu0nu4h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXSTOiR9SK24_fwa4lfBzAcOYxle2V3Vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884922028127-682pkff94m6s0krse9ccc5oceu0nu4h2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

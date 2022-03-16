@@ -1,0 +1,83 @@
+name: monografia
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^9.2.0
+  google_fonts: ^2.2.0
+  http: ^0.13.4
+  image_picker: ^0.8.4+10
+  liquid_progress_indicator: ^0.4.0
+  circular_menu: ^1.2.3
+  google_maps_flutter: ^2.1.2
+  flutter_switch: ^0.3.2
+  charts_flutter: ^0.12.0
+
+
+  firebase_core: ^1.12.0 #Adiciona os Recursos básicos
+  cloud_firestore: ^3.1.8 #Para o Banco de dados
+  firebase_storage: ^10.2.7 #Armazenameno de arquivos
+  firebase_auth: ^3.3.7 #Para autenticação
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^1.2.0
+
+flutter_native_splash:
+  android: true
+  ios: true
+
+  color: "#FFCC00"
+  image: assets/imagens/splash.png
+
+  android_gravity: center
+  fullscreen: true
+
+
+  flutter_lints: ^1.0.0
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
